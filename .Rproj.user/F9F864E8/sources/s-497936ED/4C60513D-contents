@@ -1,0 +1,62 @@
+---
+title: "Cours 2019 Data Visualisation avec R"
+author: "Laurent Politis - Essca"
+date: "24 février 2019"
+output: 
+  powerpoint_presentation:
+    reference_doc: pres_style_power.pptx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## About this document  
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## About the repository on github 
+
+You can  access to the scipts of the lecture by the following link: 
+ 
+- https://github.com/LaurentPolitis/data_science_intro
+
+Commandes à connaître  : 
+
+```console
+# code en bash 
+git clone https://github.com/LaurentPolitis/data_science_intro
+
+git fetch -a 
+
+git pull origin masterhttps://github.com/LaurentPolitis/data_science_intro
+
+``` 
+## Github 
+
+*Github* est un service d'hébergement de projets sur le web (outils similaires git, svn ...). Le plus souvent de programmation qui se base sur le logiciel Git. 
+
+Git  un logiciel de version de vos document ( outils similaire svn, mercurial)
+
+ https://desktop.github.com/ pour pouvoir l'installler sur votre ordinateur 
+
+## Cours de data sciences 
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
