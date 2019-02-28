@@ -36,27 +36,87 @@ git pull origin masterhttps://github.com/LaurentPolitis/data_science_intro
 ``` 
 ## Github 
 
-*Github* est un service d'hébergement de projets sur le web (outils similaires git, svn ...). Le plus souvent de programmation qui se base sur le logiciel Git. 
+- service d'hébergement de projets sur le web (outils similaires git, svn ...). Le plus souvent de programmation qui se base sur le logiciel Git. 
 
-Git  un logiciel de version de vos document ( outils similaire svn, mercurial)
+- *Git* un logiciel de version de vos document ( outils similaire svn, mercurial)
 
- https://desktop.github.com/ pour pouvoir l'installler sur votre ordinateur 
+- https://desktop.github.com/ pour pouvoir l'installler sur votre ordinateur, et il installe généralement une console/terminal)
+ 
+Quelques commandes bash sont à connaître  
 
-## Cours de data sciences 
+## Bash ou shell  
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+- **ls** permet de lister 
+- **cd**  naviguer dans l'*arborescence*
+- **mkdir** créer un répertoire 
+- **history** de vos commandes 
+- **pwd** où je suis 
+- **whoami** qui je suis 
+- **which** lequel 
+- **ifconfig** ip 
+- **cat** ouvrir un fichier 
+- **|** pipe afin de rediriger une sortie d'une commande pour une autre 
+- **grep *expression*** rechercher un élément ou l'expression 
 
-## Slide with R Output
+## Arborescence système 
 
-```{r cars, echo = TRUE}
-summary(cars)
-```
+![Arborescence du système](C:/Users/Laurent/Documents/R/Cours2019_M2/data/git_working_directory_tree.png)
 
-## Slide with Plot
 
-```{r pressure}
-plot(pressure)
-```
+## Aboresence d'un projet git
+![Arborescence d'un projet Git](C:/Users/Laurent/Documents/R/Cours2019_M2/data/18333fig0513-tn.png)
+
+
+
+## Rappel du premiers cours FIN403
+
+https://laurentpolitis.github.io/FIN406_2017/docs/
+
+
+
+
+## TD du 1er mars 
+Plan : 
+
+- Intro 
+- Rappel R 
+- API
+- Envoie de Mail automatique
+
+
+## Data science  
+
+- https://www.visualizing.org/
+
+- www.123data.paris/feed/sea-weather-and-data/
+
+- https://quickdraw.withgoogle.com/
+
+- https://magenta.tensorflow.org/assets/sketch_rnn_demo/multi_predict.html
+
+## Interface de programmation 
+
+
+
+![API](C:/Users/Laurent/Documents/R/Cours2019_M2/data/total-number-of-APis-growth-of-the-API-industry.png)
+
+
+
+
+## Rappel de R  
+
+***Exercice ?*** 
+
+Refaire le graphe du syllabus 
+
+- avec la librairie  dplyr et ggplot2 
+
+- la source google trend
+
+
+
+
+
+
+
 

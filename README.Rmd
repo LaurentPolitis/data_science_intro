@@ -7,32 +7,36 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Ce répertoire contient les notes de cours de la suite du cours FIN403 
+
 ## Syllabus
 
-### Objectif
 
- Le mot "data science" est devenu vraiment à la mode depuis quelques années. L’objectif du cours est  vous familiarisez avec ce nouveau domaine qui regroupe plein d'autres champs différents mais connecté entre eux.  
+Le mot "data science" est devenu  à la mode depuis quelques années. L’objectif du cours est de vous familiarisez avec ce nouveau domaine à la convergence d'autres champs différents : synergie de l'informatique, math, stat., visualisation, analyse de données, expertise métiers....  Ce cours est la suite naturelle du cours de Fin403 en Master 1. Nous utiliserons le logiciel R, qui est un puissant outil d'analyse de données et de statistiques.
 
-```{r}
+```{r echo=FALSE, fig.width=10, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(readr)
+
+
+# import des données 
+data_science <- read_csv("data/datas_cience.csv",skip = 2)
+
+
+## transformation de la donnée 
+data_science = data_science %>% group_by(Mois)%>% 
+  gather(`data science: (France)`,`big data: (France)`,
+         `machine learning: (France)`,value = "trend",key ="domaine" )
+
+head(data_science)
+
+### Visualisation
+ggplot(data=data_science,aes(x=as.Date(paste0(Mois,"-15")),y=as.numeric(trend),color=domaine,group=domaine))+
+geom_point() + labs(x="Dates",y="Trend",tiltle="Tendance des recherches sur google depuis 2004",caption = "google trend")+ 
+geom_smooth()+ facet_wrap(~domaine)
+
 
 ```
 
-
-
-## Including Code
-
-You can include R code in the document as follows:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -1,35 +1,27 @@
 Cours de Data Science avec R
 ================
 
-Syllabus
---------
+Ce répertoire contient les notes de cours de la suite du cours FIN403
 
-### Objectif
+## Syllabus
 
-Le mot "data science" est devenu vraiment à la mode depuis quelques années. L’objectif du cours est vous familiarisez avec ce nouveau domaine qui regroupe plein d'autres champs différents mais connecté entre eux.
+Le mot “data science” est devenu à la mode depuis quelques années.
+L’objectif du cours est de vous familiarisez avec ce nouveau domaine à
+la convergence d’autres champs différents : synergie de l’informatique,
+math, stat., visualisation, analyse de données, expertise métiers…. Ce
+cours est la suite naturelle du cours de Fin403 en Master 1. Nous
+utiliserons le logiciel R, qui est un puissant outil d’analyse de
+données et de statistiques.
 
-Including Code
---------------
+    ## # A tibble: 6 x 3
+    ## # Groups:   Mois [6]
+    ##   Mois    domaine                trend
+    ##   <chr>   <chr>                  <chr>
+    ## 1 2004-01 data science: (France) 0    
+    ## 2 2004-02 data science: (France) 0    
+    ## 3 2004-03 data science: (France) 7    
+    ## 4 2004-04 data science: (France) 0    
+    ## 5 2004-05 data science: (France) 0    
+    ## 6 2004-06 data science: (France) 0
 
-You can include R code in the document as follows:
-
-``` r
-summary(cars)
-```
-
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
-
-Including Plots
----------------
-
-You can also embed plots, for example:
-
-![](README_files/figure-markdown_github/pressure-1.png)
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
