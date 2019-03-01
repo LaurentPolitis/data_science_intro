@@ -1,5 +1,5 @@
 ---
-title: "Cours 2019 Data Visualisation avec R"
+title: "Cours 2019 Data Science avec R"
 author: "Laurent Politis - Essca"
 date: "24 février 2019"
 output: 
@@ -94,6 +94,33 @@ Plan :
 
 - https://magenta.tensorflow.org/assets/sketch_rnn_demo/multi_predict.html
 
+## tendance à la hausse 
+
+```{r echo=FALSE, fig.height=10, fig.width=15, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(readr)
+
+
+# import des données 
+data_science <- read_csv("data/datas_cience.csv",skip = 2)
+
+## transformation de la donnée 
+data_science = data_science %>% group_by(Mois)%>% 
+  gather(`data science: (France)`,`big data: (France)`,
+         `machine learning: (France)`,value = "trend",key ="domaine" )
+
+# head(data_science)
+
+### Visualisation
+ggplot(data=data_science,aes(x=as.Date(paste0(Mois,"-15")),y=as.numeric(trend),color=domaine,group=domaine))+
+geom_point() + labs(x="Dates",y="Trend",tiltle="Tendance des recherches sur google depuis 2004",caption = "google trend")+ 
+geom_smooth()+ facet_wrap(~domaine)
+
+
+```
+
 ## Interface de programmation 
 
 
@@ -112,6 +139,8 @@ Refaire le graphe du syllabus
 - avec la librairie  dplyr et ggplot2 
 
 - la source google trend
+
+
 
 
 
