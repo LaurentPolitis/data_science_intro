@@ -1,5 +1,39 @@
-[0m[0KMicrosoft Windows [version 10.0.17134.590][0K[?25l
+[0m[0KMicrosoft Windows [version 10.0.17134.648][0K[?25l
 (c) 2018 Microsoft Corporation. Tous droits réservés.[0K
 [0K
-C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[1A[?25h[?25l
-[43G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>g[0K[?25hi[0Kt[0K[47G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git a[0K[?25hd[0Kd[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hd[0Ki[0Kt[0K[47G[46G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>di[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>d[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hg[0Ki[0Kt[0K[47G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git d[0K[?25hi[0Kf[0Kf[0K]0;  - git  diff[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rhistory.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/files-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/packages-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/source-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/windowlayoutstate.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/workbench-pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/rmd-outputs.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/E87B38AB.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/F6FF639A.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in Api_Notebook.ipynb.[0K
+:[0K[?25h[?25lThe file will have its original line endings in your working directory[0K
+:[0K[?25h[?25lwarning: LF will be replaced by CRLF in Machine Learning.ipynb.[0K
+:[0K[?25h[?25lThe file will have its original line endings in your working directory[0K
+:[0K[?25h[?25l[0;1mdiff --git a/.Rproj.user/F9F864E8/console06/55F7494D b/.Rproj.user/F9F864E8/console06/55F7494D[0m[0K
+:[0K[?25h[?25l[0;1mindex b25f491..a61683c 100644[0m[0K
+:[0K[?25h[?25l[0;1m--- a/.Rproj.user/F9F864E8/console06/55F7494D[0m[0K
+:[0K[?25h[?25l[0;1m+++ b/.Rproj.user/F9F864E8/console06/55F7494D[0m[0K
+:[0K[?25h[?25l[0;36m@@ -1,5 +1,5 @@[0m[0K
+:[0K[?25h[?25l[0;31m-[0mMicrosoft Windows [version 10.0.17134.590][0K
+:[0K[?25h[?25l[0;32m+[0m[0K[1G[?25h[0;32m+[0mMicrosoft Windows [version 10.0.17134.648][0;31;47m^M[0m[0K[?25l
+:[0K[?25h[?25l (c) 2018 Microsoft Corporation. Tous droits r[0;30;47m<C3><A9>[0mserv[0;30;47m<C3><A9>[0ms.[0K
+:[0K[?25h[?25l[0K
+:[0K[?25h[?25l[0;31m-C:\Users\Laurent\Documents\R\Cours2019_M2>[0;30;41m^M[0m[0K[?25h[?25l
+:[0K[?25h

@@ -141,6 +141,36 @@ Refaire le graphe du syllabus
 - la source google trend
 
 
+## Solution import des données 
+
+```{r echo=TRUE, fig.width=10, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(readr)
+
+
+# import des données 
+data_science <- read_csv("data/datas_cience.csv",skip = 2)
+
+
+```
+
+## Graphiques Data sciences 
+
+```{r echo=TRUE, fig.height=4, fig.width=15, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+## transformation de la donnée 
+data_science = data_science %>% group_by(Mois)%>% 
+  gather(`data science: (France)`,`big data: (France)`,
+         `machine learning: (France)`,value = "trend",key ="domaine" )
+### Visualisation
+ggplot(data=data_science,aes(x=as.Date(paste0(Mois,"-15")),y=as.numeric(trend),color=domaine,group=domaine))+
+geom_point() + labs(x="Dates",y="Trend",tiltle="Tendance des recherches sur google depuis 2004",caption = "google trend")+ 
+geom_smooth()+ facet_wrap(~domaine)
+
+
+```
 
 
 
