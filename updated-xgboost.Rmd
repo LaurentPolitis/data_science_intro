@@ -5,10 +5,6 @@ output: html_notebook
 
 # Predict the house price
 
-
-
-
-
 ### Read Data and Load Packages 
 
 ```{r,message=FALSE, warning=FALSE}
@@ -35,17 +31,21 @@ names(Training)
 
 After that, the whole procedure has begun. I divide the whole process into four steps:
 
-* Data Cleansing
+* Data Mining 
 * Descriptive Analysis
 * Model Selection
 * Final Prediction
 
 
-### Data Cleansing
+### Data Mining 
+
+**Question 1** *What is the dimension of your data frame ? How manies varaiables do you have and observations ? (use `nrow`, `ncole`, `class`, ``str`, `summary` and `apply` ...)*
+
 It is important to clean the data with some specific rules, otherwise the precision of result can be jeopardized. After summarizing
 training set, it is not diffcult to find that some data columns got too many missing values. We first have look on the number of missing
 values in every variable. 
 
+**Question 2** *Count the missing values in your data set with the function `sapply`. *
 
 ```{r,message=FALSE, warning=FALSE}
 
@@ -85,7 +85,11 @@ Finally, for the remaining missing values, I replaced them with zero directly. T
 Training[is.na(Training)]<-0
 Num[is.na(Num)]<-0
 ```
+
+
 ### Descriptive Analysis
+
+**Question 3** *As in previous course please plot a matrix correlation  in order to analize and choose the potential  explicative variable ?*
 
 Exploring dataset could be diffcult when the quantity of variables is quite huge. Therefore, I mainly focused on the exploration of numeric
 variables in this report. The descriptive analysis of dummy variables are mostly finished by drawing box plots. Some dummy variables, like 'Street',
