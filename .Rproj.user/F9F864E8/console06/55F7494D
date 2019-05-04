@@ -648,4 +648,152 @@ fatal: adding files failed[0K
 [0K
 C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hgit add .[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>ls[0K[?25h data/[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push mars_24[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git diff[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin master[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2> git commit -am "cours 4 mai 201[0K9
 "[0K[?25h]0;  - git  commit -am "cours 4 mai 2019"[?25l
-[0K[?25h
+[0K[?25h]0; [Mars_29 610feb0] cours 4 mai 2019[0K[?25l
+ 1 file changed, 360 insertions(+)[0K
+[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25h git commit -am "cours 4 mai 201[0K9[?25l
+"[0K[?25h[?25l[1AC:\Users\Laurent\Documents\R\Cours2019_M2> git commit  "cours 4 mai 2019"[0K
+[0K[1A[74G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2> git commit "cours 4 mai 2019"[0K
+[0K[1A[73G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add .[0K
+[0K[1A[52G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2> git commit "cours 4 mai 2019"[0K
+[0K[1A[73G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2> git commit  "cours 4 mai 2019"[0K
+[0K[1A[74G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2> git commit -am "cours 4 mai 201[0K9
+"[0K[?25h[?25l[1AC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin master[0K
+[0K[1A[65G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git diff[0K
+[0K[1A[51G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push mars_24[0K
+[0K[1A[59G[?25h]0;  - git  push mars_24[?25l
+[?25h]0; fatal: 'mars_24' does not appear to be a git repository[0K[?25l
+fatal: Could not read from remote repository.[0K
+[0K
+Please make sure you have the correct access rights[0K
+and the repository exists.[0K
+[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hgit push mars_24[0K[58G[57G[56G[55G[54G[53G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push ars_24[0K[52G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push Mars_24[0K[53G[?25h[54G[55G[56G[57G[58G[59G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push Mars_2[0K[?25h9[0K[?25l
+[0K[?25h]0;  - git  push Mars_29fatal: 'Mars_29' does not appear to be a git repository[0K[?25l
+fatal: Could not read from remote repository.[0K
+[0K
+Please make sure you have the correct access rights[0K
+and the repository exists.[0K
+[0K[?25h]0; [?25l
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hgit push Mars_29[0K[58G[57G[56G[55G[54G[53G[52G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push oMars_29[0K[53G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push orMars_29[0K[54G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push oriMars_29[0K[55G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origMars_29[0K[56G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origiMars_29[0K[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push originMars_29[0K[58G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars_29[0K[59G[?25h]0;  - git  push origin Mars_29[?25l
+[0K[?25hEnumerating objects: 11, done.[0K[?25l
+Counting objects: 100% (11/11), done.[0K
+Delta compression using up to 8 threads[0K
+Compressing objects: 100% (6/6), done.[0K
+Writing objects: 100% (6/6), 4.79 KiB | 980.00 KiB/s, done.[0K
+Total 6 (delta 2), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[0K[?25l
+[0K[?25hTo https://github.com/LaurentPolitis/data_science_intro.git[0K[?25l
+   e220c93..610feb0  Mars_29 -> Mars_29[0K
+[0K[?25h]0; [?25l
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hl[0Ks[0K[46G[45G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>l[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hgit push origin Mars_29[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push mars_24[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2> git commit -am "cours 4 mai 201[0K9
+"[0K[?25h[?25l[1AC:\Users\Laurent\Documents\R\Cours2019_M2>git add .[0K
+[0K[1A[52G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add[0K
+[0K[1A[51G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add d[0K
+[0K[1A[52G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add da[0K
+[0K[1A[53G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add dat[0K
+[0K[1A[54G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data[0K
+[0K[1A[55G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/[0K
+[0K[1A[56G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/D[0K
+[0K[1A[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Da[0K
+[0K[1A[58G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Dat[0K
+[0K[1A[59G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/data[0K
+[0K[1A[60G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/dat[0K
+[0K[1A[59G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/da[0K
+[0K[1A[58G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/d[0K
+[0K[1A[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/[0K
+[0K[1A[56G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/D[0K
+[0K[1A[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/[0K
+[0K[1A[56G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/.git[0K
+[0K[1A[60G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/.ipynb[0K
+[0K[1A[62G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/.ipynb_checkpoints[0K
+[0K[1A[74G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/.RData[0K
+[0K[1A[62G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/.Rhistory[0K
+[0K[1A[43G[?25h[65G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/.Rproj.user[0K
+[0K[1A[67G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/"~$Presentation_cou[0Kr
+s1.pptx"[0K[?25h[?25l[1AC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Api_Notebook.html[0K
+[0K[1A[73G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Api_Notebook.ipynb[0K
+[0K[1A[74G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Cours2019_M2.Rproj[0K
+[0K[1A[74G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/data[0K
+[0K[1A[60G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/decision_tree_plot.[0KR
+[0K[?25h[?25l[1AC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Intro_cours_Git_hub[0K_
+files[0K[?25h[?25l[1AC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/"Machine Learning ([0K1
+).html"[0K[?25h[?25l[1AC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/"Machine Learning.i[0Kp
+ynb"[0K[?25h[?25l[1AC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/"Machine Learning-C[0Ko
+py1.ipynb"[0K[1A[43G[?25h[?25l
+[11G[?25h[?25l[1AC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_decision.png[0K
+[0K[1A[73G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_decision.pn[0K
+[0K[1A[72G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_decision.p[0K
+[0K[1A[71G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_decision.[0K
+[0K[1A[70G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_decision[0K
+[0K[1A[69G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_decisio[0K
+[0K[1A[68G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_decisi[0K
+[0K[1A[67G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_decis[0K
+[0K[1A[66G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_deci[0K
+[0K[1A[65G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_dec[0K
+[0K[1A[64G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_de[0K
+[0K[1A[63G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_d[0K
+[0K[1A[62G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plot_[0K
+[0K[1A[61G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/plo[0K
+[0K[1A[59G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/pl[0K
+[0K[1A[58G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/p[0K
+[0K[1A[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/[0K
+[0K[1A[56G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/D[0K
+[0K[1A[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Da[0K
+[0K[1A[58G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Dat[0K
+[0K[1A[59G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Data[0K
+[0K[1A[60G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Dat[0K
+[0K[1A[59G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/Da[0K
+[0K[1A[58G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/D[0K
+[0K[1A[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DA[0K
+[0K[1A[58G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DAT[0K
+[0K[1A[59G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA[0K
+[0K[1A[60G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_[0K
+[0K[1A[61G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_D[0K
+[0K[1A[62G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_De[0K
+[0K[1A[63G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_Dea[0K
+[0K[1A[64G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_De[0K
+[0K[1A[63G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_Dem[0K
+[0K[1A[64G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_Dema[0K
+[0K[1A[65G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_Deman[0K
+[0K[1A[66G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_Demand[0K
+[0K[1A[67G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_Deman[0K
+[0K[1A[66G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_Dema[0K
+[0K[1A[65G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_Dem[0K
+[0K[1A[64G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_De[0K
+[0K[1A[63G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_D[0K
+[0K[1A[62G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DATA_[0K
+[0K[1A[61G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DAT[0K
+[0K[1A[59G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/DA[0K
+[0K[1A[58G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data/D[0K
+[0K[1A[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add data[0K
+[0K[1A[55G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add dat[0K
+[0K[1A[54G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add da[0K
+[0K[1A[53G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add d[0K
+[0K[1A[52G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add[0K
+[0K[1A[51G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git ad[0K
+[0K[1A[49G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git a[0K
+[0K[1A[48G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git[0K
+[0K[1A[46G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>g[0K
+[0K[1A[44G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>[0K
+[0K[1A[43G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>c[0K
+[0K[1A[44G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>cd[0K
+[0K[1A[45G[?25h[46G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>cd D[0K
+[0K[1A[47G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>cd[0K
+[0K[1A[46G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>cd d[0K
+[0K[1A[47G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>cd da[0K
+[0K[1A[48G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>cd dat[0K
+[0K[1A[49G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>cd data[0K
+[0K[1A[50G[?25h[?25l
+
+C:\Users\Laurent\Documents\R\Cours2019_M2\data>[0K[?25hl[0Ks[0K[?25l
+'ls' n’est pas reconnu en tant que commande interne[0K
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2\data>[0K[?25hls[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2\data>cd data[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2\data>cd dat[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2\data>cd da[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2\data>cd d[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2\data>cd[0K[51G[?25h[50G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2\data>c[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2\data>[0K[?25hl[0Ks[0K[?25l
+'ls' n’est pas reconnu en tant que commande interne[0K
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2\data>[0K[?25hc[0Kd[0K[51G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2\data>cd .[0K[?25h.[0K[?25l
+[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hcd ..[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>ls[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>cd data[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars_2[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars_[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mar[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Ma[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin M[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin[0K[59G[?25h[58G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origi[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push orig[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push ori[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push or[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push o[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push[0K[52G[?25h[51G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git pus[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git pu[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git p[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git[0K[47G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git a[0K[?25hd[0Kd[0K[51G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add \[0K[?25h
