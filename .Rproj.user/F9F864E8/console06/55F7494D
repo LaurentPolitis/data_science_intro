@@ -288,4 +288,364 @@ C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25h git commit  "cours 4 mai 20
 [0K[1A[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2> git commit -am "cours 4 mai 201[0K9
 "[0K[1A[58G[?25h]0;  - git  commit -am "cours 4 mai 2019"[?25l
 
+[0K[?25hwarning: LF will be replaced by CRLF in .Rhistory.[0K[?25l
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/files-pan[0Ke
+.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/packages-[0Kp
+ane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/source-pa[0Kn
+e.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/windowlay[0Ko
+utstate.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/workbench[0K-
+pane.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/rmd-outputs.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0KE
+87B38AB.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0KF
+6FF639A.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0KI
+NDEX.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths[0K.
+[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Machine Learnin[0Kg
+-checkpoint.ipynb.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in Machine Learning.ipynb.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25h]0; [Mars_29 e220c93] cours 4 mai 2019[0K[?25l
+ 15 files changed, 658 insertions(+), 49 deletions(-)[0K
+ rewrite .RData (96%)[0K
+ rewrite .Rproj.user/F9F864E8/console06/INDEX001 (84%)[0K
+[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25h git commit -am "cours 4 mai 201[0K9[?25l
+"[0K[?25h[?25l[1AC:\Users\Laurent\Documents\R\Cours2019_M2> git commit  "cours 4 mai 2019"[0K
+[0K[1A[74G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2> git commit "cours 4 mai 2019"[0K
+[0K[1A[73G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add .[0K
+[0K[1A[52G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add[0K
+[0K[1A[51G[?25h[50G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git ad[0K
+[0K[1A[49G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git a[0K
+[0K[1A[48G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git[0K
+[0K[1A[47G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git p[0K
+[0K[1A[48G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git pu[0K
+[0K[1A[49G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git pus[0K
+[0K[1A[50G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push[0K
+[0K[1A[51G[?25h[52G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push o[0K
+[0K[1A[53G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push or[0K
+[0K[1A[54G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push ori[0K
+[0K[1A[55G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push orig[0K
+[0K[1A[56G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origi[0K
+[0K[1A[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin[0K
+[0K[1A[58G[?25h[59G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin m[0K
+[0K[1A[60G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin ma[0K
+[0K[1A[61G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin mas[0K
+[0K[1A[62G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin masy[0K
+[0K[1A[63G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin mas[0K
+[0K[1A[62G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin mast[0K
+[0K[1A[63G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin maste[0K
+[0K[1A[64G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin master[0K
+[0K[1A[65G[?25h[?25l
+[?25h]0;  - git  push origin masterEverything up-to-date[0K[?25l
+[0K[?25h]0; [?25l
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hg[0Kit push origin master[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin maste[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin mast[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin mas[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin ma[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin m[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin[0K[59G[?25h[58G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origi[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push orig[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push ori[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push or[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push o[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push[0K[52G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push m[0K[?25ha[0Kr[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push ma[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push m[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push[0K[52G[?25h[51G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git pusho[0K[?25hr[0Ki[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git pushor[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git pusho[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git pus[0K[?25hh[0K[52G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0Km[0Ka[0Kr[0K[60G[59G[58G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin mar[0K[59G[?25h[60G[61G[62G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin ma[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin m[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin[0K[59G[?25h[58G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origi[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push orig[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push ori[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push or[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push o[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push[0K[52G[?25h[51G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git pus[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git pu[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git p[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git[0K[47G[?25h[46G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>gi[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>g[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hg[0Ki[0Kt[0K[47G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git d[0K[?25hi[0Kf[0Kf[0K]0;  - git  diff[?25l
+[0K[?25h[0;1mdiff --git a/.Rproj.user/F9F864E8/console06/55F7494D b/.Rproj.user/F9F864E[0K8[?25l
+/console06/55F7494D[0m[0K
+[0;1mindex d5ec06d..8212fcb 100644[0m[0K
+[0;1m--- a/.Rproj.user/F9F864E8/console06/55F7494D[0m[0K
+[0;1m+++ b/.Rproj.user/F9F864E8/console06/55F7494D[0m[0K
+[0;36m@@ -288,4 +288,75 @@[0m C:\Users\Laurent\Documents\R\Cours2019_M2> git commit[0K
+ "cours 4 mai 20[0K
+ [0;30;47m^M^M[0mC:\Users\Laurent\Documents\R\Cours2019_M2> git commit -am "cours 4 ma[0Ki
+ 2019[0K
+ "[0;30;47m^M[0m0;  - git  commit -am "cours 4 mai 2019"[0;30;47m^G[0m[0K
+:[0K[?25h[6n[?25l[0K[?25h ESC[0K[6n[?25l:[0K[?25h[6n[?25l ESC[0K[?25h[?25l:[0K[?25h[?25l[0K
+:[0K[?25h[?25l[0K[?25h]0; [?25l
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25h[?25l
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hgit diff[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin master[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin maste[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin mast[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin mas[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin ma[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin m[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin[0K[59G[?25h[58G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origi[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push orig[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push ori[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push or[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push o[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push[0K[52G[?25h[51G[52G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .git[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .ipynb[0K[?25h_checkpoints[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .RData[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .Rhistory[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .Rhistor[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .Rhisto[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .Rhist[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .Rhis[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .Rhi[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .Rh[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .R[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push .[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push[0K[52G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push m[0K[?25ha[0Kr[0Ks[0K-[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push mars[0K[?25h_[0K2[0K4[0K]0;  - git  push mars_24[?25l
+[0K[?25hfatal: 'mars_24' does not appear to be a git repository[0K[?25l
+fatal: Could not read from remote repository.[0K
+[0K
+Please make sure you have the correct access rights[0K
+and the repository exists.[0K
+[0K[?25h]0; [?25l
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hgit push mars_24[0K[58G[57G[56G[55G[54G[53G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push ars_24[0K[52G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push Mars_24[0K[53G[?25h[54G[55G[56G[57G[58G[59G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push Mars_2[0K[?25h9[0K]0;  - git  push Mars_29[?25l
+[0K[?25h]0; fatal: 'Mars_29' does not appear to be a git repository[0K[?25l
+fatal: Could not read from remote repository.[0K
+[0K
+Please make sure you have the correct access rights[0K
+and the repository exists.[0K
+[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hgit push Mars_29[0K[58G[57G[56G[55G[54G[53G[52G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push oMars_29[0K[53G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push orMars_29[0K[54G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push oriMars_29[0K[55G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origMars_29[0K[56G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origiMars_29[0K[57G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push originMars_29[0K[58G[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars_29[0K[59G[?25h[?25l
+[0K[?25h]0;  - git  push origin Mars_29Enumerating objects: 49, done.[0K[?25l
+Counting objects:  97% (47/49)[0K[1G[?25hCounting objects: 100% (49/49), done.[0K[?25l
+Delta compression using up to 8 threads[0K
+Compressing objects: 100% (23/23)[0K[1G[?25hCompressing objects: 100% (23/23), done.[0K[?25l
+Writing objects:   8% (2/25)[0K[1G[?25h[?25lWriting objects:  96% (24/25)[0K[1G[?25hWriting objects: 100% (25/25), 272.19 KiB | 2.93 MiB/s, done.[0K[?25l
+Total 25 (delta 13), reused 0 (delta 0)[0K
+[0K[?25h[?25lremote: Resolving deltas:  38% (5/13)[0K[1G[?25h[?25lremote: Resolving deltas:  92% (12/13)[0K[1G[?25hremote: Resolving deltas: 100% (13/13), completed with 13 local objects.[0K[?25l
+[0K[?25hTo https://github.com/LaurentPolitis/data_science_intro.git[0K[?25l
+   dfeb2ce..e220c93  Mars_29 -> Mars_29[0K
+[0K[?25h]0; [?25l
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hl[0Ks[0K[46G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>ls d[0K[?25ha[0Kt[0Ka[0K/[0K[?25l
+[0K[?25h'ls' n’est pas reconnu en tant que commande interne[0K[?25l
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hl[0Ks[0K[?25l
+'ls' n’est pas reconnu en tant que commande interne[0K
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hg[0Ki[0Kt[0K[47G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git a[0K[?25hd[0Kd[0K[51G[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add .[0K[?25h.[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git add .[0K[?25h]0;  - git  add .[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/debug-bre[0Ka[?25l
+kpoints.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/pcs/source-wi[0Kn
+dow.pper.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0K1
+5044995.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0K1[?25l
+F097C84.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0K3
+C003F30.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0K5
+ACA352.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0K5
+E4CC5E6.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0K6
+894C18D.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0K7
+E097A9F.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0K9
+05D456A.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0K9
+CAED8BE.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0KA
+6924B7D.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0KB
+2B8AA77.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0KC
+0925F20.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0KC
+D199882.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/prop/[0KF
+EE6F2B4.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/201023FC.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/201023FC-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/28F60917.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/346F6BF4.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/346F6BF4-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/383C2418.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/383C2418-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/41450877.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/41450877-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/424F234E.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/424F234E-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/46B5ED01.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/46B5ED01-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/49014514.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/49014514-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/4B48960F.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/4C60513D.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/4C60513D-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/596074C6.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/596074C6-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/6352B14E.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/6352B14E-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/6ED2709D.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/78375672.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/78375672-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/C6F0C9C.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/C6F0C9C-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/DCCFCC8F.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/DCCFCC8F-contents.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9[?25l
+C0B/E56D06C6.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/F2A42DFC.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/F6F45058.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/F9F864E8/sources/s-E5C[0K9
+C0B/F6F45058-contents.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/306AA[0KB
+44-real_estate_ML/1/s/cqm54k60fwji2/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/306AA[0KB
+44-real_estate_ML/1/s/crp67pkuhzeg4/00000e.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/5BDAD[0K3
+3-real_estate_ML/1/s/c3h9kp28wht8c/000006.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/c4fu0sw1vcowq/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/c95pvbhwc2yrf/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/carlb8llfz1x0/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/ccgad0w1tfz2a/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/cfom5r2cts4s2/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/cfom5r2cts4s2/000004.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/cfp0dgdctws6f/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5[?25l
+DE-Presentation_xgboost/1/F9F864E8C4558045/cgwkt75vey1bm/00000e.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/cgzswsuxlov5a/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/cj6hrryg79jel/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/cj6hrryg79jel/000004.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/cj9e6huzl8z0a/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/cocxkhqalhau7/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/csetup_chunk/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/lib/DiagrammeR-styles-0.2/style[0Ks
+.css.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/lib/grViz-binding-1.0.0/grViz.j[0Ks
+.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/lib/htmlwidgets-1.3/htmlwidgets[0K.
+js.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/F9F864E8C4558045/lib/viz-0.3/viz.js.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/s/lib/DiagrammeR-styles-0.2/styles.css.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/s/lib/grViz-binding-1.0.0/grViz.js.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5[?25l
+DE-Presentation_xgboost/1/s/lib/htmlwidgets-1.3/htmlwidgets.js.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/92056[0K5
+DE-Presentation_xgboost/1/s/lib/viz-0.3/viz.js.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/A9CD5[0K8
+FE-updated-xgboost/1/F9F864E87D6FB42/cvzty9j8pded7/000004.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/A9CD5[0K8
+FE-updated-xgboost/1/s/crnnimavuvijo/000006.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/A9CD5[0K8
+FE-updated-xgboost/1/s/cvzty9j8pded7/000002.csv.[0K
+The file will have its original line endings in your working directory[0K
+warning: LF will be replaced by CRLF in Machine Learning-Copy1.ipynb.[0K
+The file will have its original line endings in your working directory[0K
+[0K[?25h]0; error: open("~$Presentation_cours1.pptx"): Permission denied[0K[?25l
+error: unable to index file ~$Presentation_cours1.pptx[0K
+fatal: adding files failed[0K
+[0K
+C:\Users\Laurent\Documents\R\Cours2019_M2>[0K[?25hgit add .[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>ls[0K[?25h data/[0K[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push Mars_29[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push mars_24[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git diff[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2>git push origin master[0K[?25h[?25lC:\Users\Laurent\Documents\R\Cours2019_M2> git commit -am "cours 4 mai 201[0K9
+"[0K[?25h]0;  - git  commit -am "cours 4 mai 2019"[?25l
 [0K[?25h
