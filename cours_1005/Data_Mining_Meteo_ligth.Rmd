@@ -1,0 +1,100 @@
+---
+title: "Model de demand Japan"
+author: "3MV Team - LP"
+date: "5/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+ In order to address the real-time prediction on electricity demand over Japan, we propose an approach based on XGBoost. 
+
+The data we have come from the main actors of the electricity companie. We have weather data in order to predict the weather sensibilities on comsumption. 
+
+
+## Data mining 
+
+```{r data export, echo=TRUE, message=FALSE, warning=FALSE}
+### DATAMINING ### 
+library(readxl)
+library(lubridate)
+library(Nippon)
+library(dplyr)
+library(xgboost)
+library(ggplot2)
+library(caret)
+library(maptools)
+source("ephemeris.R")
+
+
+### Data Mining  -------
+
+DATA_Demand <- read_excel("DATA_Demand.xlsx")
+DATA_Demand$weekend = ifelse(lubridate::wday(DATA_Demand$Dates) %in% c(1, 7),1,0)
+
+DATA_Demand$holiday = as.numeric(is.jholiday(as.Date(DATA_Demand$Dates)))
+#" sunrise solarnoon sunset day_length" data 
+#36.2048° N, 138.2529° E
+
+
+list_daylength = do.call(args = (lapply(as.Date(DATA_Demand$Dates),FUN =
+                            function(x){
+                                ephemeris(lat = 36.2048,lon =138.2529,date = x)[,c("date","sunrise", "solarnoon","sunset","day_length")]
+                            })),what = "rbind")
+
+colnames(list_daylength) = c("Dates","sunrise", "solarnoon","sunset","day_length")
+
+
+### Data prepartion for modeling and creation of new feature as length of day, toatal comsumption 
+
+DATA_Demand_lag = DATA_Demand %>% mutate(Dates = as.Date(Dates),Total_lag1 = lag(Total), Total_lag2 = lag(lag(Total)),Total_lag3 = lag(lag(lag(Total))),Total_lag4= lag(lag(lag(lag(Total))))) %>%
+                    select(-c("TEPCO",  "KEPCO", "TOHOKU",  "CHUBU")) %>% full_join(y =list_daylength,by = "Dates" )
+
+#### Handling missing values
+
+DATA_Demand_lag = DATA_Demand_lag[complete.cases(DATA_Demand_lag), ]
+
+head(DATA_Demand_lag)
+```
+## Machine Learning first step  
+
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+## creation of the xgboost models  
+XGB_model <- xgboost::xgboost(data = as.matrix(DATA_Demand_lag[,-c(1,6)]),
+                              label = (as.matrix(DATA_Demand_lag[,"Total"])),
+                              objective = "reg:linear",
+                              eval_metric = "mae",
+                              learning_rate = 0.05,
+                              subsample = 0.5, seed = 1, # subsample default value=1. Setting to 0.5 means that XGBoost randomly collected half of the data instances to grow trees and this will prevent overfitting.
+                              nrounds = 3000, 
+                              max.depth = 2, eta = 1, nthread = 3)
+
+xgb.importance(model = XGB_model )
+
+###  step of cross validation in order to define a good nround parameter 
+XGB_cv <- xgboost::xgb.cv(data = as.matrix(DATA_Demand_lag[,-c(1,6)]),
+                          label = (as.matrix(DATA_Demand_lag[,"Total"])),
+                          objective = "reg:linear",
+                          eval_metric = "mae",
+                          learning_rate = 0.05,
+                          subsample = 0.5, seed = 1, # subsample default value=1. Setting to 0.5 means that XGBoost randomly collected half of the data instances to grow trees and this will prevent overfitting.
+                          nrounds = 3000, 
+                          max.depth = 2, eta = 1, nthread = 3,nfold = 4)
+
+## forecast of the XGB model 
+
+DATA_Demand_lag$forecast = predict(XGB_model,as.matrix(DATA_Demand_lag[,-c(1,6)]))
+
+qplot(DATA_Demand_lag$forecast,DATA_Demand_lag$Total)+geom_abline(slope=1,color="red",size=2,alpha=0.5)
+
+ggplot(XGB_cv$evaluation_log)+ geom_point(aes(x=iter,y=test_mae_mean,color="test"))+
+    geom_point(aes(x=iter,y=train_mae_mean,color="train"))+ scale_y_log10()
+
+
+```
+
+### Optimization of parameters of the xgboost modeling step 
