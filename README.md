@@ -5,7 +5,7 @@ Ce répertoire contient les notes de cours de la suite du cours FIN403
 
 ## Syllabus
 
-Le mot “data science” est devenu à la mode depuis quelques années.
+La “data science” est devenue une discipline très recherchée.
 L’objectif du cours est de vous familiarisez avec ce nouveau domaine à
 la convergence d’autres champs différents : synergie de l’informatique,
 math, stat., visualisation, analyse de données, expertise métiers…. Ce
